@@ -59,6 +59,13 @@
     font-family: "button-font", Arial, Helvetica, sans-serif;
     font-size: 15px;
 
+    &:hover {
+      background: none;
+      color: $button-hover-color;
+      cursor: pointer;
+      border: 2px $button-hover-color solid;
+    }
+
     &--orange {
       color: $orange-box;
     }
