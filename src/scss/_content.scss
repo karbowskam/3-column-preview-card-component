@@ -6,8 +6,24 @@
 .grid {
   width: 325px;
   margin: 15% auto;
+  background: $background;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 450px);
 
+  &__box {
+    &--sedan {
+      background: $orange-box;
+    }
+
+    &--suv {
+      background: $cyan-box;
+    }
+
+    &--luxury {
+      background: $dark-cyan-box;
+    }
+  }
 }
+
+    background: $buttons-background;
