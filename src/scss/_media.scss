@@ -1,0 +1,35 @@
+@media screen and (min-width: 600px) {
+  .grid {
+    width: 500px;
+    grid-template-rows: repeat(3, 625px);
+    margin: 20% auto;
+  }
+
+  .content {
+    padding: 65px;
+
+    &__image {
+      width: 37%;
+      height: 37%;
+    }
+
+    &__header {
+      font-size: 50px;
+      letter-spacing: 2px;
+    }
+
+    &__paragraph {
+      font-size: 19px;
+      line-height: 1.9;
+    }
+
+    &__button {
+      padding: 10px;
+      border-radius: 45px;
+      width: 182px;
+      height: 58px;
+      margin-top: 18px;
+      font-size: 20px;
+    }
+  }
+}
