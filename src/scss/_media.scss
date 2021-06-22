@@ -71,3 +71,35 @@
     }
   }
 }
+
+@media screen and (min-width: 1000px) {
+  .grid {
+    width: 900px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 490px);
+  }
+
+  .content {
+
+    &__image {
+      width: 45%;
+      height: 45%;
+    }
+
+    &__header {
+      font-size: 39px;
+    }
+
+    &__paragraph {
+      font-size: 14px;
+    }
+
+    &__button {
+      border-radius: 40px;
+      width: 150px;
+      height: 50px;
+      margin-top: 30px;
+      font-size: 18px;
+    }
+  }
+}
