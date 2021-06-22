@@ -28,6 +28,12 @@
 
 .content {
   padding: 50px;
+
+  &__image {
+    width: 30%;
+    height: 30%;
+  }
+
   &__header {
     font-family: "header-font", Arial, Helvetica, sans-serif;
     color: $header-color;
@@ -42,6 +48,7 @@
     font-size: 15px;
     line-height: 1.7;
   }
+
   &__button {
     background: $buttons-background;
     padding: 10px;
@@ -65,3 +72,4 @@
       color: $dark-cyan-box;
     }
   }
+}
