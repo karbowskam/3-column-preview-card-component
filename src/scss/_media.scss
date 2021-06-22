@@ -103,3 +103,36 @@
     }
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .grid {
+    width: 1100px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 610px);
+  }
+
+  .content {
+    padding: 50px; 
+    
+    &__image {
+      width: 40%;
+      height: 40%;
+    }
+
+    &__header {
+      font-size: 45px;
+    }
+
+    &__paragraph {
+      font-size: 19px;
+    }
+
+    &__button {
+      border-radius: 48px;
+      width: 163px;
+      height: 58px;
+      margin-top: 40px;
+      font-size: 21px;
+    }
+  }
+}
