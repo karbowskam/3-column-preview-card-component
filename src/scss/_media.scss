@@ -33,3 +33,41 @@
     }
   }
 }
+
+@media screen and (min-width: 800px) {
+  .grid {
+    width: 700px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 425px);
+    margin: 5% auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .content {
+    padding: 45px;
+
+    &__image {
+      width: 40%;
+      height: 40%;
+    }
+
+    &__header {
+      font-size: 30px;
+    }
+
+    &__paragraph {
+      font-size: 12px;
+    }
+
+    &__button {
+      border-radius: 35px;
+      width: 130px;
+      height: 40px;
+      margin-top: 20px;
+      font-size: 15px;
+    }
+  }
+}
