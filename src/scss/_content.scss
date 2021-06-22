@@ -42,4 +42,26 @@
     font-size: 15px;
     line-height: 1.7;
   }
+  &__button {
     background: $buttons-background;
+    padding: 10px;
+    border-radius: 35px;
+    width: 145px;
+    height: 47px;
+    margin-top: 10px;
+    border: none;
+    font-family: "button-font", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+    &--orange {
+      color: $orange-box;
+    }
+
+    &--cyan {
+      color: $cyan-box;
+    }
+
+    &--dark-cyan {
+      color: $dark-cyan-box;
+    }
+  }
