@@ -13,6 +13,8 @@
   &__box {
     &--sedan {
       background: $orange-box;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
     }
 
     &--suv {
@@ -21,6 +23,8 @@
 
     &--luxury {
       background: $dark-cyan-box;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
     }
   }
 }
